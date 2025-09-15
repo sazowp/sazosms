@@ -1,0 +1,17 @@
+{
+    "name": "sazowp/sazosms",
+    "description": "Sending SMS in WordPress for login and plugins",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Sazowp\\App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammadreza",
+            "email": "rashidpour1995@gmail.com"
+        }
+    ],
+    "require": {}
+}
