@@ -1,0 +1,287 @@
+.d-ltr {
+  direction: ltr !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse !important;
+}
+
+
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.justify-content-around {
+  justify-content: space-around !important;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+
+.align-items-start {
+  align-items: flex-start !important;
+}
+
+.align-items-end {
+  align-items: flex-end !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.align-items-baseline {
+  align-items: baseline !important;
+}
+
+.align-items-stretch {
+  align-items: stretch !important;
+}
+
+.gap-0 {
+  gap: 0 !important;
+}
+
+.gap-1 {
+  gap: 0.25rem !important;
+}
+
+.gap-2 {
+  gap: 0.5rem !important;
+}
+
+.gap-3 {
+  gap: 1rem !important;
+}
+
+.gap-4 {
+  gap: 1.5rem !important;
+}
+
+.gap-5 {
+  gap: 3rem !important;
+}
+
+
+.button-error {
+  color: #fff;
+  background: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.button-error:hover {
+  background: #bb2d3b !important;
+  border-color: #b02a37 !important;
+}
+
+.button-error:disabled {
+  background: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.button-error:active {
+  background: #b02a37 !important;
+  border-color: #a52834 !important;
+}
+
+.button-success {
+  color: #fff;
+  background: #198754 !important;
+  border-color: #198754 !important;
+}
+
+.button-success:hover {
+  background: #157347 !important;
+  border-color: #146c43 !important;
+}
+
+.button-success:disabled {
+  background: #198754 !important;
+  border-color: #198754 !important;
+}
+
+.button-success:active {
+  background: #146c43 !important;
+  border-color: #13653f !important;
+}
+
+.button-warning {
+  color: #000;
+  background: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
+.button-warning:hover {
+  background: #ffca2c !important;
+  border-color: #ffc720 !important;
+}
+
+.button-warning:disabled {
+  background: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
+.button-warning:active {
+  background: #ffcd39 !important;
+  border-color: #ffc720 !important;
+}
+
+.text-error {
+  color: rgba(220, 53, 69, 1) !important;
+}
+
+.text-success {
+  color: rgba(25, 135, 84, 1) !important;
+}
+
+.text-warning {
+  color: rgba(255, 193, 7, 1) !important;
+}
+
+
+.border-error {
+  border-color: #b12222 !important;
+}
+
+
+.w-100 {
+  width: 100%;
+}
+
+.ID.column-ID {
+  direction: ltr;
+}
+
+.zba-row-meta-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0px;
+}
+
+.zba-row-meta-box a {
+  text-align: end;
+}
+
+.zba-row-meta-box video {
+  height: 100px;
+}
+
+.zba-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+}
+
+
+.gallery-management-container {
+  padding-top: 20px;
+}
+
+.gallery-management-container .sortable-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.gallery-management-container .image-item {
+  position: relative;
+  cursor: move;
+}
+
+.gallery-management-container .image-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.gallery-management-container .remove-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  padding: 2px 5px;
+  text-decoration: none;
+}
+
+
+
+.draggable-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.draggable-fields {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.draggable-fields>div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.draggable-handle {
+  cursor: move;
+  color: #72777c;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.remove-draggable {
+  margin-right: 20px !important;
+}
+
+#link-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
